@@ -1,0 +1,6 @@
+# สำหรับติดตั้งไลบรารีทั้งหมดที่ต้องใช้ในโปรแกรมนี้ (เปิดหน้า cmd ขึ้นมาแล้ว Copy คำสั่งด้านล่างไปวาง)
+pip install customtkinter python-docx PyMuPDF tkinterdnd2 moviepy curl_cffi requests playwright chardet beautifulsoup4
+
+# สำคัญมาก
+เนื่องจากโปรแกรมนี้มีการใช้ playwright เพื่อจำลองเบราว์เซอร์ในการทะลวงบล็อคเว็บนิยาย (Bypass Cloudflare) หลังจากรันคำสั่งด้านบนเสร็จแล้ว ให้ก๊อปปี้คำสั่งนี้ไปรันต่อเพื่อติดตั้งตัวเบราว์เซอร์ครับ
+playwright install chromium
